@@ -58,6 +58,13 @@ a.al-sidebar-list-link {
   white-space: nowrap;
   overflow: hidden;
   cursor: pointer;
+  &.active{
+    color:#fff;
+    background: $primary;
+    &:hover{
+      color: #fff;
+    }
+  }
   &:hover {
     color: $primary;
     b {

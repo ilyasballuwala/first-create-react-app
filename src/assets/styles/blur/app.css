@@ -2227,6 +2227,16 @@ a.al-logo {
   float: left;
   outline: none !important;
   line-height: 60px; }
+  a.al-logo .app-logo {
+    width: 55px;
+    padding: 5px 5px 5px 0;
+    height: 65px;
+    float: left; }
+  a.al-logo .projectTitle {
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    padding: 5px 0 0 5px; }
   a.al-logo span {
     color: #209e91; }
 
@@ -2388,6 +2398,11 @@ a.al-sidebar-list-link {
   white-space: nowrap;
   overflow: hidden;
   cursor: pointer; }
+  a.al-sidebar-list-link.active {
+    color: #fff;
+    background: #209e91; }
+    a.al-sidebar-list-link.active:hover {
+      color: #fff; }
   a.al-sidebar-list-link:hover {
     color: #209e91; }
     a.al-sidebar-list-link:hover b {

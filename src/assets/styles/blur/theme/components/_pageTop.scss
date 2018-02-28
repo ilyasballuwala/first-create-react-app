@@ -23,10 +23,23 @@ a.al-logo {
   outline: none !important;
   line-height: 60px;
 
+  .app-logo{
+    width:55px;
+    padding:5px 5px 5px 0;
+    height:65px;
+    float:left;
+  }
+  .projectTitle{
+    color: #fff;
+    font-size: 20px;
+    float:left;
+    padding:5px 0 0 5px;
+  }
   span {
     color: $primary;
   }
 }
+
 
 .user-profile {
   float: right;
