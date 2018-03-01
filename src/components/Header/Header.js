@@ -9,6 +9,18 @@ class Header extends React.Component{
     appName: process.env.REACT_APP_NAME,
 	}
 
+  componentDidMount(){
+      document.body.addEventListener('click', this.handleBodyClick.bind(this));
+  }
+
+  componentWillUnmount(){
+      document.body.removeEventListener('click', this.handleBodyClick.bind(this));
+  }
+
+  handleBodyClick(){
+      this.setState(() => ({ isMenuOpen: false }));
+  }
+
 	onToggleMenu(){
 		this.setState((prevState) => ({
 			isMenuOpen : !prevState.isMenuOpen

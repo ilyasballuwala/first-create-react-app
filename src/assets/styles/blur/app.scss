@@ -175,3 +175,25 @@ a.forgot-pass {
     transform: scale(1.2);
   }
 }
+
+/** Custom Added Style **/
+.erwXMn, .fFQjZE{ padding:13px 12px; }
+.cRkCQa{ width:25px; }
+.dpLRPu{ padding-right: 0; width: calc(100% - 25px); }
+.dpLRPu + div{
+  top:45%; right:8px !important;
+}
+.kwcFda{
+  &:before{
+    width:0.50em;
+    height:0.50em;
+    top:0;
+  }
+}
+.fdIEpy{
+  &:before{
+    width:0.50em;
+    height:0.50em;
+    top:0;
+  }
+}

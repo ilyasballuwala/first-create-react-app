@@ -17,10 +17,11 @@ import UserSettingsPage from '../components/Pages/user/UserSettingsPage';
 import '../assets/styles/app.css';
 
 const AppRouter = () => (
-  <BrowserRouter>
+  <BrowserRouter> 
     <AppLayout> 
       <Switch>
           <Route path="/" component={AppDashboardPage} exact={true} />
+          <Route path="/dashboard" component={AppDashboardPage} exact={true} />
           <Route path="/deals" component={AppDealsPage} exact={true} />
           <Route path="/purchase-history" component={PaymentHistoryPage} exact={true} />
           <Route path="/earnings" component={TotalEarningsPage} exact={true} />
@@ -33,7 +34,7 @@ const AppRouter = () => (
 
           <Route component={NotFoundPage} />
       </Switch>
-    </AppLayout>      
+    </AppLayout>    
   </BrowserRouter>
 );
 
