@@ -32,8 +32,8 @@ class Header extends React.Component{
           </a>
           <ul className="top-dropdown-menu profile-dropdown dropdown-menu">
             <li><i className="dropdown-arr"></i></li>
-            <li><Link to="/"><i className="fa fa-user"></i>Profile</Link></li>
-            <li><Link to="/"><i className="fa fa-cog"></i>Settings</Link></li>
+            <li><Link to="/user-profile"><i className="fa fa-user"></i>Profile</Link></li>
+            <li><Link to="/user-settings"><i className="fa fa-cog"></i>Settings</Link></li>
             <li>
               <a href="#" className="signout" onClick={e => this.onLogout()}>
                 <i className="fa fa-power-off"></i>Sign out

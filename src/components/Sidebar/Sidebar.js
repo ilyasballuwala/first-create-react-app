@@ -4,8 +4,13 @@ import SidebarOption from './SidebarOption';
 class Sidebar extends React.Component{
 	state = {
 		navItems: [
-			{ pathname: '/', label: 'Home', icon: 'home' },
-			{ pathname: '/deals', label: 'Deals Management', icon: 'info' },
+			{ pathname: '/', label: 'Dashboard', icon: 'home' },
+			{ pathname: '/deals', label: 'Deals Management', icon: 'product-hunt' },
+			{ pathname: '/purchase-history', label: 'Purchase History', icon: 'credit-card' },
+			{ pathname: '/earnings', label: 'Total Earnings', icon: 'dollar' },
+			{ pathname: '/customers', label: 'Customer Listing', icon: 'users'},
+			{ pathname: '/notifications', label: 'Notification Management', icon: 'exclamation-triangle' },
+			{ pathname: '/cashback', label: 'Cashback', icon: 'suitcase' },
 		],
 	}
 

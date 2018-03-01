@@ -18,7 +18,7 @@ class AppLayout extends Component{
                 <Header />
                     <div className="al-main">
                         <div className="al-content">
-                            {this.props.children}
+                            {this.props.children}  
                         </div>
                     </div>
                 <Footer appName="Hyperlocal App For SAAS - Merchant" />                    

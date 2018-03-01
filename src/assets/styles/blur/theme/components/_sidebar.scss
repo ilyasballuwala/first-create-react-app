@@ -47,15 +47,16 @@ $angle-right: "\f101";
 }
 
 a.al-sidebar-list-link {
-  display: block;
-  height: 42px;
-  padding-left: 18px;
+  display: table;
+  width:100%;
+  height: auto;
+  padding:13px 5px 13px 15px;
   text-shadow: none;
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: none;
   color: #ffffff;
-  line-height: 42px;
-  white-space: nowrap;
+  line-height: normal;
+  white-space: normal;
   overflow: hidden;
   cursor: pointer;
   &.active{
@@ -72,9 +73,10 @@ a.al-sidebar-list-link {
     }
   }
   i {
-    margin-right: 18px;
-    width: 16px;
-    display: inline-block;
+    padding-right: 10px;
+    width: 30px;
+    display: table-cell;
+    text-align: center;
   }
   b {
     display: block;

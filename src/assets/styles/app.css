@@ -8288,7 +8288,7 @@ h1.al-title {
   height: 66px;
   width: 100%;
   min-width: 320px;
-  padding: 0 32px 0 40px; }
+  padding: 0 20px 0 10px; }
   .page-top.scrolled {
     background: rgba(0, 0, 0, 0.85); }
 
@@ -8310,7 +8310,7 @@ a.al-logo {
     color: #fff;
     font-size: 20px;
     float: left;
-    padding: 5px 0 0 5px; }
+    padding: 2px 0 0 5px; }
   a.al-logo span {
     color: #209e91; }
 
@@ -8461,15 +8461,16 @@ a.collapse-menu-link {
         color: #ffffff; }
 
 a.al-sidebar-list-link {
-  display: block;
-  height: 42px;
-  padding-left: 18px;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 13px 5px 13px 15px;
   text-shadow: none;
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: none;
   color: #ffffff;
-  line-height: 42px;
-  white-space: nowrap;
+  line-height: normal;
+  white-space: normal;
   overflow: hidden;
   cursor: pointer; }
   a.al-sidebar-list-link.active {
@@ -8482,9 +8483,10 @@ a.al-sidebar-list-link {
     a.al-sidebar-list-link:hover b {
       color: #209e91; }
   a.al-sidebar-list-link i {
-    margin-right: 18px;
-    width: 16px;
-    display: inline-block; }
+    padding-right: 10px;
+    width: 30px;
+    display: table-cell;
+    text-align: center; }
   a.al-sidebar-list-link b {
     display: block;
     opacity: 1;

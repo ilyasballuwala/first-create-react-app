@@ -1,14 +1,14 @@
 import React from 'react';
 
-let AppDealsPage = () => (
+const TotalEarningsPage = () => (
     <div>  
         <div className="content-top clearfix">
-            <h1 className="al-title">Deal Management</h1>
+            <h1 className="al-title">Earnings</h1>
         </div>
         <div className="panel panel-blur light-text">
-            <div className="panel-body">This is deals page</div>
+            <div className="panel-body">This is Earnings page</div>
         </div>
     </div>
 );
 
-export default AppDealsPage;
+export default TotalEarningsPage;
