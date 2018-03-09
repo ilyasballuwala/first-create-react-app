@@ -197,3 +197,27 @@ a.forgot-pass {
     top:0;
   }
 }
+
+/** Infopanel Style **/
+.pie-charts{ 
+  color:#fff; 
+  .pie-chart-item-container{ width:25%; position: relative; padding: 0 15px; float:left; box-sizing: border-box; }
+  .pie-chart-item{ position: relative; }
+  .chart{ position: relative; display: inline-block; width: 50px; height: 70px; text-align: center; float: left; 
+    i{ font-size:50px; padding-top: 13px; }
+  }
+  .percent{ display: inline-block; line-height: 70px; z-index: 2; font-size: 16px; 
+    &:after{ content: '%'; margin-left: 0.1em; font-size: 0.8em; }
+  }
+  .description{ display: inline-block; padding: 15px 0 0 20px; font-size: 18px; opacity: 0.9; 
+    .description-stats{ padding-top: 8px; font-size: 24px; }
+  }
+}
+
+
+
+
+
+
+
+

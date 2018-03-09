@@ -30,7 +30,7 @@ class Header extends React.Component{
 	renderLogo() {
     return (
       <Link to={{ pathname: '/' }} className="al-logo clearfix">
-				<img src={Logo} className="img-responsive app-logo"/><div className="projectTitle">{this.props.title}</div>
+				<img src={Logo} className="img-responsive app-logo" alt="site-logo"/><div className="projectTitle">{this.props.title}</div>
 			</Link>
     );
 	}
@@ -40,14 +40,14 @@ class Header extends React.Component{
       <div className="user-profile clearfix">
         <div className={`al-user-profile dropdown ${this.state.isMenuOpen ? 'open' : ''}`}>
           <a className="profile-toggle-link dropdown-toggle" onClick={this.onToggleMenu.bind(this)}>
-            <img src={UserImage} classname="user-image"/>
+            <img src={UserImage} className="user-image" alt="userimage" />
           </a>
           <ul className="top-dropdown-menu profile-dropdown dropdown-menu">
             <li><i className="dropdown-arr"></i></li>
             <li><Link to="/user-profile"><i className="fa fa-user"></i>Profile</Link></li>
             <li><Link to="/user-settings"><i className="fa fa-cog"></i>Settings</Link></li>
             <li>
-              <a href="#" className="signout" onClick={e => this.onLogout()}>
+              <a className="signout" onClick={e => this.onLogout()}>
                 <i className="fa fa-power-off"></i>Sign out
               </a>
             </li>
